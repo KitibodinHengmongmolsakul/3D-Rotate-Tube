@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #e3e07c;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(241, 150, 150, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
@@ -61,7 +61,7 @@ body {
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: hsl(19, 63%, 55%);
 }
 
 @keyframes animate {
